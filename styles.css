@@ -1,0 +1,113 @@
+:root{
+    --backgroundColor:#114c5f;
+    --letterColor:#F2e6cf;
+    --subMenuColor:#4a6eb0;
+    --secondbackground:#9cd2d3;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    margin:0 auto;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Climate Crisis', cursive;
+
+    font-family: 'Gloock', serif;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    width:100%;
+    height: 75px;
+    background-color: var(--backgroundColor);
+    displaY:grid;
+    place-items: center;
+    
+}
+
+span{
+    color:var(--letterColor);
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-top: 0px;
+    flex-direction: column;
+    justify-self: center;
+    text-shadow:1px 2px grey;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.first-container{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    
+}
+.secondContainer{
+    margin-right: 30px;
+}
+
+
+.cards-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,240px);
+    gap:45px;
+    place-content:center;
+    margin: 0 auto;
+    
+}
+
+#logoCurso{
+    width:185px;
+    height: 150px;
+    margin:0 auto;
+}
+
+#logoCurso:hover{
+    width:200px;
+    height: 200px;
+}
+
+.topic-card{
+    width:250px;
+    height: 250px;
+    background-color: #9fa1a7;
+    display:flex;
+    
+    flex-direction: column;
+    margin-top:45px;
+    box-shadow: 10px 10px;
+}
+
+
+.topic-card-topicName{
+    width:250px;
+    height: 75px;
+    background-color: #4a6eb0;
+    text-align: center;
+}
+
+footer{
+    width:100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background-color:var(--backgroundColor);
+    margin-top: 10px;
+}
+
+footer span{
+    font-size:1.4rem;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,211 @@
+:root{
+    --backgroundColor:#114c5f;
+    --letterColor:#F2e6cf;
+    --subMenuColor:#4a6eb0;
+    --secondbackground:#9cd2d3;
+    --off-white:#FAF8F7;
+    --secondary-blue:#1A9AF7;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    margin:0 auto;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Climate Crisis', cursive;
+
+    font-family: 'Gloock', serif;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    width:100%;
+    height: 95px;
+    background-color: var(--backgroundColor);
+    displaY:grid;
+    place-items: center;
+    
+}
+
+span{
+    color:var(--letterColor);
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-top: 0px;
+    flex-direction: column;
+    justify-self: center;
+    text-shadow:1px 2px grey;
+}
+main{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.first-container{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    
+}
+.secondContainer{
+    margin-right: 30px;
+}
+
+
+.cards-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,240px);
+    gap:45px;
+    place-content:center;
+    margin: 0 auto;
+    
+}
+
+#logoCurso{
+    width:185px;
+    height: 150px;
+    margin:0 auto;
+}
+
+#logoCurso:hover{
+    width:200px;
+    height: 200px;
+}
+
+.topic-card{
+    width:250px;
+    height: auto;
+    background-color: #9fa1a7;
+    display:flex;
+    
+    flex-direction: column;
+    margin-top:15px;
+    box-shadow: 10px 10px;
+    background:linear-gradient(208.7deg, #201e1c 16%, #f7931a 100%);
+}
+
+
+.topic-card-topicName{
+   display:flex;
+   justify-content: center;
+    width:250px;
+    height: 75px;
+    background-color: #4a6eb0;
+    text-align: center;
+    
+}
+.topic-card-topicName span{
+    margin-top: 15px;
+}
+
+#first {
+    margin-top: 10px;
+    width:100px;
+    height: auto;
+    padding:2px;
+    background-color:var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color:var(--secondary-blue);
+    border-radius: 8px;
+}
+
+.container-topic{
+    margin-top: 10px;
+    width:365;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.subcontainer-topic{
+    width:100%;
+    
+}
+.container-topic .subcontainer-topic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.container-topic .subcontainer-topic .container-topic_info-topic{
+    margin-top: 15px;
+    margin-left:10px; 
+    padding:10px;
+    width:375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 2.5rem;
+
+}
+.picture-Algorithm img{
+    width:300px;
+    height: 375px;
+    margin-left: 5px;
+
+}
+.actividades_algoritmo h6{
+    font-size: 2.1rem;
+}
+.actividades_algoritmo ol li{
+    font-size:1.8rem;
+    font-weight: 400;
+}
+
+#lenguaje-bajoNivel-img img{
+    width:250px;
+    height: 200px;
+   margin: 0 auto;
+}
+#lenguaje-alto-img img{
+    width:450px;
+    height: 175px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width:100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    background-color:var(--backgroundColor);
+    margin-top: 10px;
+}
+
+footer span{
+    font-size:1.4rem;
+    margin-top: 10px;
+}
+
+

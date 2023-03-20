@@ -1,9 +1,9 @@
 :root{
-    --backgroundColor:#f00;
+    --backgroundColor:#114c5f;
     --letterColor:#F2e6cf;
     --subMenuColor:#4a6eb0;
     --secondbackground:#9cd2d3;
-}
+} 
 *{
     padding:0;
     margin:0;
